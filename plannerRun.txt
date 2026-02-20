@@ -1,0 +1,1 @@
+docker run --rm -v "${env:BENCHMARKS}:/benchmarks" aibasel/downward --alias lama-first /benchmarks/gripper/prob01.pddl
